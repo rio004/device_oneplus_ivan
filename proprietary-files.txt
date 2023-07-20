@@ -1,5 +1,9 @@
 # Unpinned blobs from OP555BL1-user 12 SP1A.210812.016 1662108125590 release-keys
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Audio
 odm/lib/lib_aurisys_lvimfs.so
 odm/lib/liblvimfs.so
