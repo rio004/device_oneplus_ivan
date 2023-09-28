@@ -289,6 +289,14 @@ odm/firmware/fastchg/21876/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/charging_thermal_config_default.txt
 odm/lib64/vendor.oplus.hardware.charger@1.0.so
 
+# Connectivity
+vendor/bin/conninfra_loader
+vendor/firmware/conninfra.cfg
+vendor/firmware/soc5_0_ram_mcu_1_1_hdr.bin
+vendor/firmware/soc5_0_ram_mcu_1c_1_hdr.bin
+vendor/firmware/soc5_0_ram_wmmcu_1_1_hdr.bin
+vendor/firmware/soc5_0_ram_wmmcu_1c_1_hdr.bin
+
 # Display
 odm/lib/libdpservice.so
 odm/lib64/libdpservice.so
