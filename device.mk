@@ -108,6 +108,11 @@ PRODUCT_PACKAGES += \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor
 
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor \
+    libtextclassifier_hash.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
