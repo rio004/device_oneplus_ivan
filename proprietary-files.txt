@@ -281,6 +281,14 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
+# Charger
+odm/bin/hw/vendor.oplus.hardware.charger@1.0-service
+odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_charger.xml
+odm/firmware/fastchg/21876/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/lib64/vendor.oplus.hardware.charger@1.0.so
+
 # Display
 odm/lib/libdpservice.so
 odm/lib64/libdpservice.so
@@ -415,3 +423,10 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
+
+# Fuelgauge
+vendor/bin/fuelgauged
+vendor/bin/fuelgauged_nvram
+vendor/etc/init/fuelgauged_init.rc
+vendor/etc/init/fuelgauged_nvram_init.rc
+vendor/lib/libfgauge_gm30.so
