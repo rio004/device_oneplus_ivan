@@ -434,6 +434,11 @@ vendor/lib/libfgauge_gm30.so
 # Gatekeeper
 vendor/lib64/hw/libMcGatekeeper.so:vendor/lib64/hw/gatekeeper.trustonic.so
 
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic
+vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc
+vendor/lib64/hw/kmsetkey.trustonic.so
+
 # Trusted Execution Environment (TEE)
 odm/vendor/app/mcRegistry/01010000000000000000000000000000.tabin
 odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin
