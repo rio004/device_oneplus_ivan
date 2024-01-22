@@ -55,6 +55,11 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
     libbluetooth_audio_session
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.provider@2.6.vendor
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
