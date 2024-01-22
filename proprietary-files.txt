@@ -420,6 +420,12 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
+# Display Firmware
+odm/firmware/tp/21851/FW_FT3518_SAMSUNG.img
+odm/firmware/tp/21851/FW_FT3518_SAMSUNG_FAE.img
+odm/firmware/tp/21851/LIMIT_FT3518_SAMSUNG.img
+odm/firmware/tp/21851/LIMIT_FT3518_SAMSUNG_AGING.img
+
 # DRM
 odm/lib64/liboemcrypto.so
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
