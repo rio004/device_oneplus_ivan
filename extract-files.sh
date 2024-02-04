@@ -58,6 +58,9 @@ function blob_fixup() {
         odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service)
             grep -q libshims_fingerprint.oplus.so "${2}" || "${PATCHELF}" --add-needed libshims_fingerprint.oplus.so "${2}"
             ;;
+        system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml)
+            sed -i 's|my_product|system_ext|g' "${2}"
+	    ;;
     esac
 }
 
